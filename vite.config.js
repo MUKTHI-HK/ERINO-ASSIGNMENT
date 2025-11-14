@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 var __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
     plugins: [react()],
-    base: '/ERINO-ASSIGNMENT/',
+    base: './',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'src'),
